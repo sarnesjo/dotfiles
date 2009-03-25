@@ -39,3 +39,7 @@ autocmd FileType python set shiftwidth=4 tabstop=4
 
 " makefiles need tabs
 autocmd FileType make   set noexpandtab
+
+" search-and-replace macros
+map <S-f> :%s//gc<Left><Left><Left>
+map <S-g> :%s/<C-r><C-w>//gc<Left><Left><Left>
