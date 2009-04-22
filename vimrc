@@ -24,6 +24,8 @@ set hlsearch                    " highlight matches
 set showcmd                     " show typed keys in the status line
 set wildmenu                    " show match for partly typed commands in the command line
 
+set completeopt=longest,menu    " complete to longest common prefix and show a menu
+
 syntax on                       " use syntax highlighting
 
 colorscheme desert              " this colorscheme works well both in a GUI and a terminal
