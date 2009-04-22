@@ -42,4 +42,4 @@ autocmd FileType make   set noexpandtab
 
 " search-and-replace macros
 map <S-f> :%s//gc<Left><Left><Left>
-map <S-g> :%s/<C-r><C-w>//gc<Left><Left><Left>
+map <S-g> :%s/\<<C-r><C-w>\>//gc<Left><Left><Left>
