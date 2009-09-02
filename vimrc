@@ -45,11 +45,11 @@ autocmd FileType cpp    set cindent
 autocmd FileType objc   set cindent
 autocmd FileType objcpp set cindent
 
-" use 4 spaces for each level of indent for Python code
-autocmd FileType python set shiftwidth=4 tabstop=4 
-
 " makefiles need tabs
 autocmd FileType make   set noexpandtab
+
+" use 4 spaces for each level of indent for Python code
+autocmd FileType python set shiftwidth=4 tabstop=4
 
 " search-and-replace macros
 map <S-f> :%s//gc<Left><Left><Left>
