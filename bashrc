@@ -25,6 +25,10 @@ elif [[ $(uname) == "Linux" ]]; then
   alias l="ls -AFl --color=auto"
 fi
 
-if [ -f /opt/local/etc/bash_completion ]; then
+if [ -r /opt/local/etc/bash_completion ]; then
   . /opt/local/etc/bash_completion
+fi
+
+if [ -r /etc/bash_completion ]; then
+  . /etc/bash_completion
 fi
