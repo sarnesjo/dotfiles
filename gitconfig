@@ -5,3 +5,5 @@
 	diff = auto
 	status = auto
 	branch = auto
+[alias]
+	merge-no-ff = merge --no-ff
