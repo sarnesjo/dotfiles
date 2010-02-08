@@ -4,7 +4,6 @@ export PATH="/usr/local/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:$PATH
 export MANPATH="/usr/local/share/man:/opt/local/share/man:$MANPATH"
 
 export LANG="en_US.UTF-8"
-export __CF_USER_TEXT_ENCODING="0x1F5:0x8000100:0x8000100" # use UTF-8
 
 export HISTSIZE="10000"     # save this many lines from a single shell
 export HISTFILESIZE="10000" # save this many lines in the history file
