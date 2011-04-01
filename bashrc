@@ -31,11 +31,11 @@ if [[ $(uname) == "Darwin" ]]; then
   export GIT_PS1_SHOWDIRTYSTATE=1
   export GIT_PS1_SHOWSTASHSTATE=1
   export GIT_PS1_SHOWUNTRACKEDFILES=1
-  export PS1="\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;36m\]\w\[\e[0m\]\$(__git_ps1 ':%s')\[\e[0m\] \$ "
+  export PS1="\[\e[1;36m\]\w\[\e[0m\]\$(__git_ps1 ':%s')\[\e[0m\] \$ "
 elif [[ $(uname) == "Linux" ]]; then
   print_git_branch()
   {
     git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/:\1/'
   }
-  export PS1="\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;36m\]\w\[\e[0m\]\$(print_git_branch)\[\e[0m\] \$ "
+  export PS1="\[\e[1;36m\]\w\[\e[0m\]\$(print_git_branch)\[\e[0m\] \$ "
 fi
