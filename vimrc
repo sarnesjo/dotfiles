@@ -54,3 +54,4 @@ autocmd FileType python set shiftwidth=4 tabstop=4
 " search-and-replace macros
 map <S-f> :%s//gc<Left><Left><Left>
 map <S-g> :%s/\<<C-r><C-w>\>//gc<Left><Left><Left>
+map <S-h> :%s/\<<C-r><C-w>\>/<C-r><C-w>/gc<Left><Left><Left>
