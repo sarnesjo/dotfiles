@@ -55,3 +55,7 @@ autocmd FileType python set shiftwidth=4 tabstop=4
 map <S-f> :%s//gc<Left><Left><Left>
 map <S-g> :%s/\<<C-r><C-w>\>//gc<Left><Left><Left>
 map <S-h> :%s/\<<C-r><C-w>\>/<C-r><C-w>/gc<Left><Left><Left>
+
+" pathogen
+runtime bundle/pathogen/autoload/pathogen.vim
+call pathogen#infect()
