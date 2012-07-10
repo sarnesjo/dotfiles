@@ -28,7 +28,12 @@ set completeopt=longest,menu    " complete to longest common prefix and show a m
 
 syntax on                       " use syntax highlighting
 
-colorscheme desert              " this colorscheme works well both in a GUI and a terminal
+" enable pathogen
+runtime bundle/pathogen/autoload/pathogen.vim
+call pathogen#infect()
+
+" set colorscheme
+colorscheme jellybeans
 
 " set omnifunc based on filetype
 autocmd FileType c          setlocal omnifunc=ccomplete#Complete
@@ -55,7 +60,3 @@ autocmd FileType python setlocal shiftwidth=4 tabstop=4
 map <S-f> :%s//gc<Left><Left><Left>
 map <S-g> :%s/\<<C-r><C-w>\>//gc<Left><Left><Left>
 map <S-h> :%s/\<<C-r><C-w>\>/<C-r><C-w>/gc<Left><Left><Left>
-
-" pathogen
-runtime bundle/pathogen/autoload/pathogen.vim
-call pathogen#infect()
