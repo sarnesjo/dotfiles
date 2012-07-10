@@ -4,4 +4,5 @@
 [color]
 	ui = auto
 [alias]
-	merge-no-ff = merge --no-ff
+	g = log --graph --oneline --decorate
+	ga = log --graph --oneline --decorate --all
