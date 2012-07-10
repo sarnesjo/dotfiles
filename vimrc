@@ -31,25 +31,25 @@ syntax on                       " use syntax highlighting
 colorscheme desert              " this colorscheme works well both in a GUI and a terminal
 
 " set omnifunc based on filetype
-autocmd FileType c          set omnifunc=ccomplete#Complete
-autocmd FileType css        set omnifunc=csscomplete#CompleteCSS
-autocmd FileType html       set omnifunc=htmlcomplete#CompleteTags
-autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType php        set omnifunc=phpcomplete#CompletePHP
-autocmd FileType python     set omnifunc=pythoncomplete#Complete
-autocmd FileType xml        set omnifunc=xmlcomplete#CompleteTags
+autocmd FileType c          setlocal omnifunc=ccomplete#Complete
+autocmd FileType css        setlocal omnifunc=csscomplete#CompleteCSS
+autocmd FileType html       setlocal omnifunc=htmlcomplete#CompleteTags
+autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType php        setlocal omnifunc=phpcomplete#CompletePHP
+autocmd FileType python     setlocal omnifunc=pythoncomplete#Complete
+autocmd FileType xml        setlocal omnifunc=xmlcomplete#CompleteTags
 
 " be extra clever when indenting C-like code
-autocmd FileType c      set cindent
-autocmd FileType cpp    set cindent
-autocmd FileType objc   set cindent
-autocmd FileType objcpp set cindent
+autocmd FileType c      setlocal cindent
+autocmd FileType cpp    setlocal cindent
+autocmd FileType objc   setlocal cindent
+autocmd FileType objcpp setlocal cindent
 
 " makefiles need tabs
-autocmd FileType make   set noexpandtab
+autocmd FileType make   setlocal noexpandtab
 
 " use 4 spaces for each level of indent for Python code
-autocmd FileType python set shiftwidth=4 tabstop=4
+autocmd FileType python setlocal shiftwidth=4 tabstop=4
 
 " search-and-replace macros
 map <S-f> :%s//gc<Left><Left><Left>
