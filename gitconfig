@@ -2,8 +2,6 @@
 	name = Jesper Särnesjö
 	email = jesper@sarnesjo.org
 [color]
-	diff = auto
-	status = auto
-	branch = auto
+	ui = auto
 [alias]
 	merge-no-ff = merge --no-ff
