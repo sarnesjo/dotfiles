@@ -6,3 +6,7 @@
 [alias]
 	g = log --graph --oneline --decorate
 	ga = log --graph --oneline --decorate --all
+[push]
+	default = current
+[merge]
+	defaultToUpstream = true
