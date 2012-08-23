@@ -4,6 +4,7 @@
 [color]
 	ui = auto
 [alias]
+	b = branch -vv
 	g = log --graph --oneline --decorate
 	ga = log --graph --oneline --decorate --all
 [push]
