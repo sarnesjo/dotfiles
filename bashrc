@@ -1,7 +1,7 @@
 export EDITOR="vim"
 
-export PATH="/usr/local/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/libexec/perl5.12:/usr/bin:/usr/sbin:/bin:/sbin"
-export MANPATH="/usr/local/share/man:/opt/local/share/man:/opt/local/share/perl5.12/man:/opt/local/Library/Frameworks/Python.framework/Versions/2.7/share/man:/usr/llvm-gcc-4.2/share/man:/usr/share/man"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin"
+export MANPATH="/usr/local/share/man:/usr/llvm-gcc-4.2/share/man:/usr/share/man"
 
 export LANG="en_US.UTF-8"
 
@@ -18,8 +18,7 @@ elif [[ $(uname) == "Linux" ]]; then
   alias l="ls -AFl --color=auto"
 fi
 
-if [ -r /opt/local/etc/profile.d/bash_completion.sh ]; then . /opt/local/etc/profile.d/bash_completion.sh; fi
-if [ -r /opt/local/etc/bash_completion ]; then . /opt/local/etc/bash_completion; fi
+if [ -r /usr/local/etc/bash_completion ]; then . /usr/local/etc/bash_completion; fi
 if [ -r /etc/bash_completion ]; then . /etc/bash_completion; fi
 
 # show git branch in prompt
