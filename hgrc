@@ -1,6 +1,0 @@
-[ui]
-username = Jesper Särnesjö <jesper@sarnesjo.org>
-
-[extensions]
-hgext.convert =
-color =
