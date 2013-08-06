@@ -1,7 +1,6 @@
 set nocompatible                " don't behave like vi
 
 set encoding=utf-8              " use utf-8 in Vim
-set fileencodings=utf-8,latin1  " automatically detect utf-8 and latin1
 
 set autoindent                  " automatically indent new lines...
 set smartindent                 " ... and be clever about it
