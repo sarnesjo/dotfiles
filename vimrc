@@ -34,26 +34,15 @@ call pathogen#infect()
 " set colorscheme
 colorscheme jellybeans
 
-" set omnifunc based on filetype
-autocmd FileType c          setlocal omnifunc=ccomplete#Complete
-autocmd FileType css        setlocal omnifunc=csscomplete#CompleteCSS
-autocmd FileType html       setlocal omnifunc=htmlcomplete#CompleteTags
+" filetype settings
+autocmd FileType c,cpp,objc,objcpp setlocal cindent omnifunc=ccomplete#Complete
+autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
+autocmd FileType html setlocal omnifunc=htmlcomplete#CompleteTags
 autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType php        setlocal omnifunc=phpcomplete#CompletePHP
-autocmd FileType python     setlocal omnifunc=pythoncomplete#Complete
-autocmd FileType xml        setlocal omnifunc=xmlcomplete#CompleteTags
-
-" be extra clever when indenting C-like code
-autocmd FileType c      setlocal cindent
-autocmd FileType cpp    setlocal cindent
-autocmd FileType objc   setlocal cindent
-autocmd FileType objcpp setlocal cindent
-
-" makefiles need tabs
-autocmd FileType make   setlocal noexpandtab
-
-" use 4 spaces for each level of indent for Python code
-autocmd FileType python setlocal shiftwidth=4 tabstop=4
+autocmd FileType make setlocal noexpandtab
+autocmd FileType php setlocal omnifunc=phpcomplete#CompletePHP
+autocmd FileType python setlocal omnifunc=pythoncomplete#Complete shiftwidth=4 tabstop=4
+autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 
 " search-and-replace macros
 map <S-f> :%s//gc<Left><Left><Left>
