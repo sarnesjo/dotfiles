@@ -5,11 +5,13 @@
 	ui = auto
 [alias]
 	b = branch -vv
+	ba = branch -avv
 	f = fetch --prune
 	g = log --graph --oneline --decorate
 	ga = log --graph --oneline --decorate --all
 	gb = log --graph --oneline --decorate --branches
 	pu = push --set-upstream
+	si = status --ignored
 [push]
 	default = current
 [merge]
