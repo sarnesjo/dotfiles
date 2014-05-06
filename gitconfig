@@ -17,3 +17,5 @@
 [merge]
 	conflictstyle = diff3
 	defaultToUpstream = true
+[core]
+	excludesfile = ~/.gitignore_global
