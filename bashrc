@@ -1,6 +1,6 @@
 export EDITOR=vim
 export LESSHISTFILE=-
-export MANPATH="/usr/local/share/man:/usr/llvm-gcc-4.2/share/man:/usr/share/man"
+export MANPATH="/usr/local/share/man:/usr/share/man"
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin"
 
 if [[ $(uname) == "Darwin" ]]; then
