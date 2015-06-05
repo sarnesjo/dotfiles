@@ -10,9 +10,6 @@
 [submodule "vim/bundle/gitignore"]
 	path = vim/bundle/gitignore
 	url = git@github.com:vim-scripts/gitignore.git
-[submodule "vim/bundle/glsl"]
-	path = vim/bundle/glsl
-	url = git@github.com:tikhomirov/vim-glsl.git
 [submodule "vim/bundle/jellybeans"]
 	path = vim/bundle/jellybeans
 	url = git@github.com:nanotech/jellybeans.vim.git
