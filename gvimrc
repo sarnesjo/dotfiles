@@ -3,4 +3,4 @@ set guioptions-=T
 set columns=100
 set lines=50
 set visualbell
-colorscheme base16-ocean
+colorscheme jellybeans
