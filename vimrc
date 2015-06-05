@@ -10,6 +10,7 @@ set expandtab
 set hlsearch
 set ignorecase
 set incsearch
+set nowrap
 set number
 set ruler
 set shiftwidth=2
