@@ -20,3 +20,9 @@ if [[ $(command -v __git_ps1) == "__git_ps1" ]]; then
 else
   export PS1="\[\e[1;36m\]\w\[\e[0m\] ♪ "
 fi
+
+function unquarantine {
+  xattr -d com.apple.metadata:kMDItemDownloadedDate "$@"
+  xattr -d com.apple.metadata:kMDItemWhereFroms "$@"
+  xattr -d com.apple.quarantine "$@"
+}
