@@ -2,7 +2,6 @@ set nocompatible
 
 set autoindent
 set backspace=indent,eol,start
-set cindent
 set cinoptions=(0,g0
 set completeopt=longest,menu
 set encoding=utf-8
@@ -28,5 +27,6 @@ call pathogen#infect()
 syntax on
 colorscheme jellybeans
 
+autocmd FileType c,cpp,objc,objcpp,java,javascript setlocal cindent
 autocmd FileType make setlocal noexpandtab
 autocmd FileType python setlocal shiftwidth=4 tabstop=4
