@@ -12,6 +12,8 @@ fi
 if [ -r /usr/local/etc/bash_completion ]; then . /usr/local/etc/bash_completion; fi
 if [ -r /etc/bash_completion ]; then . /etc/bash_completion; fi
 
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
 if [[ $(command -v __git_ps1) == "__git_ps1" ]]; then
   export GIT_PS1_SHOWDIRTYSTATE=1
   export GIT_PS1_SHOWSTASHSTATE=1
