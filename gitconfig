@@ -1,8 +1,6 @@
 [user]
 	name = Jesper Särnesjö
 	email = jesper@sarnesjo.org
-[color]
-	ui = auto
 [alias]
 	b = branch -vv
 	ba = branch -avv
@@ -15,7 +13,7 @@
 [push]
 	default = current
 [merge]
-	conflictstyle = diff3
+	conflictStyle = diff3
 	defaultToUpstream = true
 [core]
-	excludesfile = ~/.gitignore_global
+	excludesFile = ~/.gitignore_global
