@@ -22,7 +22,7 @@ set whichwrap=<,>,[,],b,s
 set wildmenu
 
 runtime bundle/pathogen/autoload/pathogen.vim
-call pathogen#infect()
+execute pathogen#infect()
 
 syntax on
 colorscheme jellybeans
