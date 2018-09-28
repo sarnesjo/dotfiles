@@ -9,8 +9,8 @@ elif [[ $(uname) == "Linux" ]]; then
   alias l="ls -AFl --color=auto"
 fi
 
-if [ -r /usr/local/etc/bash_completion ]; then . /usr/local/etc/bash_completion; fi
-if [ -r /etc/bash_completion ]; then . /etc/bash_completion; fi
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+[ -f /etc/bash_completion ] && . /etc/bash_completion
 
 if [[ $(command -v __git_ps1) == "__git_ps1" ]]; then
   export GIT_PS1_SHOWDIRTYSTATE=1
