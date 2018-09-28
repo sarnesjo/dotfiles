@@ -30,6 +30,7 @@ colorscheme jellybeans
 
 autocmd FileType c,cpp,objc,objcpp setlocal cindent
 autocmd FileType gitcommit setlocal textwidth=72
+autocmd FileType gitconfig setlocal noexpandtab
 autocmd FileType make setlocal noexpandtab
 autocmd FileType python setlocal shiftwidth=4 tabstop=4
 
