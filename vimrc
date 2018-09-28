@@ -28,7 +28,7 @@ execute pathogen#infect()
 syntax on
 colorscheme jellybeans
 
-autocmd FileType c,cpp,objc,objcpp,java,javascript setlocal cindent
+autocmd FileType c,cpp,objc,objcpp setlocal cindent
 autocmd FileType make setlocal noexpandtab
 autocmd FileType python setlocal shiftwidth=4 tabstop=4
 
