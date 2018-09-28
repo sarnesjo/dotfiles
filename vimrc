@@ -18,6 +18,7 @@ set smartcase
 set smartindent
 set smarttab
 set tabstop=2
+set updatetime=1000
 set whichwrap=<,>,[,],b,s
 set wildmenu
 
