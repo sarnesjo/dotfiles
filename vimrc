@@ -30,3 +30,5 @@ colorscheme jellybeans
 autocmd FileType c,cpp,objc,objcpp,java,javascript setlocal cindent
 autocmd FileType make setlocal noexpandtab
 autocmd FileType python setlocal shiftwidth=4 tabstop=4
+
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
