@@ -1,3 +1,7 @@
+filetype plugin indent on
+syntax on
+colorscheme jellybeans
+
 set autoindent
 set backspace=indent,eol,start
 set cinoptions=(0,g0
@@ -19,14 +23,5 @@ set tabstop=2
 set updatetime=1000
 set whichwrap=<,>,[,],b,s
 set wildmenu
-
-syntax on
-colorscheme jellybeans
-
-autocmd FileType c,cpp,objc,objcpp setlocal cindent
-autocmd FileType gitcommit setlocal textwidth=72
-autocmd FileType gitconfig setlocal noexpandtab
-autocmd FileType make setlocal noexpandtab
-autocmd FileType python setlocal shiftwidth=4 tabstop=4
 
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
