@@ -1,5 +1,3 @@
-set nocompatible
-
 set autoindent
 set backspace=indent,eol,start
 set cinoptions=(0,g0
