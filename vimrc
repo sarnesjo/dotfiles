@@ -20,9 +20,6 @@ set updatetime=1000
 set whichwrap=<,>,[,],b,s
 set wildmenu
 
-runtime bundle/pathogen/autoload/pathogen.vim
-execute pathogen#infect()
-
 syntax on
 colorscheme jellybeans
 

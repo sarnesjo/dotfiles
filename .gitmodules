@@ -1,18 +1,15 @@
-[submodule "vim/bundle/jellybeans"]
-	path = vim/bundle/jellybeans
-	url = https://github.com/nanotech/jellybeans.vim.git
-[submodule "vim/bundle/pathogen"]
-	path = vim/bundle/pathogen
-	url = https://github.com/tpope/vim-pathogen.git
-[submodule "vim/bundle/supertab"]
-	path = vim/bundle/supertab
-	url = https://github.com/ervandew/supertab.git
-[submodule "vim/bundle/ctrlp"]
-	path = vim/bundle/ctrlp
+[submodule "vim/pack/s/start/ctrlp"]
+	path = vim/pack/s/start/ctrlp
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
-[submodule "vim/bundle/polyglot"]
-	path = vim/bundle/polyglot
-	url = https://github.com/sheerun/vim-polyglot.git
-[submodule "vim/bundle/gitgutter"]
-	path = vim/bundle/gitgutter
+[submodule "vim/pack/s/start/gitgutter"]
+	path = vim/pack/s/start/gitgutter
 	url = https://github.com/airblade/vim-gitgutter
+[submodule "vim/pack/s/start/jellybeans"]
+	path = vim/pack/s/start/jellybeans
+	url = https://github.com/nanotech/jellybeans.vim.git
+[submodule "vim/pack/s/start/polyglot"]
+	path = vim/pack/s/start/polyglot
+	url = https://github.com/sheerun/vim-polyglot.git
+[submodule "vim/pack/s/start/supertab"]
+	path = vim/pack/s/start/supertab
+	url = https://github.com/ervandew/supertab.git
