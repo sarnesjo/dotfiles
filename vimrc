@@ -3,6 +3,7 @@ syntax on
 colorscheme jellybeans
 
 set autoindent
+set autoread
 set backspace=indent,eol,start
 set cinoptions=(0,g0
 set completeopt=longest,menu
