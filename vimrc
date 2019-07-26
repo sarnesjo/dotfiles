@@ -13,6 +13,7 @@ set hlsearch
 set ignorecase
 set incsearch
 set nojoinspaces
+set nomodeline
 set nowrap
 set number
 set ruler
