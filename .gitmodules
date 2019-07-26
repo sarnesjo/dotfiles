@@ -7,9 +7,6 @@
 [submodule "vim/pack/s/start/jellybeans"]
 	path = vim/pack/s/start/jellybeans
 	url = https://github.com/nanotech/jellybeans.vim.git
-[submodule "vim/pack/s/start/polyglot"]
-	path = vim/pack/s/start/polyglot
-	url = https://github.com/sheerun/vim-polyglot.git
 [submodule "vim/pack/s/start/supertab"]
 	path = vim/pack/s/start/supertab
 	url = https://github.com/ervandew/supertab.git
