@@ -3,8 +3,9 @@
 	email = jesper@sarnesjo.org
 [alias]
 	b = branch -vv
-	ba = branch -avv
+	ba = branch -vv --all
 	f = fetch --prune
+	fa = fetch --prune --all
 	g = log --graph --oneline --decorate
 	ga = log --graph --oneline --decorate --all
 	gb = log --graph --oneline --decorate --branches
