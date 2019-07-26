@@ -6,6 +6,8 @@ if [[ $(uname) == "Darwin" ]]; then
   alias ls="ls -G"
   alias l="ls -AFl"
 elif [[ $(uname) == "Linux" ]]; then
+  alias diff="diff --color=auto"
+  alias grep="grep --color=auto"
   alias ls="ls --color=auto"
   alias l="ls -AFl"
 fi
