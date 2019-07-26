@@ -3,9 +3,11 @@ export LESSHISTFILE=-
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin"
 
 if [[ $(uname) == "Darwin" ]]; then
-  alias l="ls -AFGl"
+  alias ls="ls -G"
+  alias l="ls -AFl"
 elif [[ $(uname) == "Linux" ]]; then
-  alias l="ls -AFl --color=auto"
+  alias ls="ls --color=auto"
+  alias l="ls -AFl"
 fi
 
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
