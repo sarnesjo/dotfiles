@@ -4,17 +4,23 @@
 [alias]
 	b = branch -vv
 	ba = branch -vv --all
+	c = checkout
 	f = fetch --prune
 	fa = fetch --prune --all
 	g = log --graph --oneline --decorate
 	ga = log --graph --oneline --decorate --all
 	gb = log --graph --oneline --decorate --branches
 	pu = push --set-upstream
+	rd = rebase --ignore-date
+	ri = rebase --interactive
 	si = status --ignored
 [push]
 	default = current
+[pull]
+	ff = only
 [merge]
 	conflictStyle = diff3
 	defaultToUpstream = true
+	ff = only
 [core]
 	excludesFile = ~/.gitignore_global
